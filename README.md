@@ -4,4 +4,4 @@
 
 项目构建工具：Webpack
 
-CSS 编译器：Sass
+CSS 编译器：stylus
