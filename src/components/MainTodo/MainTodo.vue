@@ -22,9 +22,25 @@ export default {
   name: "MainTodo",
   data() {
     return {
-      todoData: [],
+      todoData: [
+        {
+          completed: false,
+          content: "TypeScript开源项目",
+          id: 0
+        },
+        {
+          completed: true,
+          content: "炉石传说线上赛10ban6",
+          id: 1
+        },
+        {
+          completed: false,
+          content: "letcode week12",
+          id: 2
+        },
+      ],
       content: "",
-      total: 0,
+      total: 2,
       filter: "all"
     };
   },
